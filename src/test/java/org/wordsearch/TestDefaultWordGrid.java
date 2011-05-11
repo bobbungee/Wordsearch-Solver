@@ -26,11 +26,6 @@ public class TestDefaultWordGrid {
 	}
 	
 	@Test
-	public void testSetGrid() {
-		assertEquals("Test if set grid equals original grid", map, grid.getGrid());
-	}
-	
-	@Test
 	public void testGet() {
 		assertEquals("Make sure same String is received as put", "A", grid.get(new Point(1, 1)));
 	}
